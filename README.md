@@ -63,17 +63,17 @@ El objetivo de este quiz es evaluar tus conocimientos previos sobre JavaScript a
    - A) `var myVariable;`
    - B) `variable myVariable;`
    - C) `let myVariable;`
-   - D) `A y C son correctas.`
+   - D) `A y C son correctas.` <-------
 
 12. ¿Qué método se utiliza para agregar un elemento al final de un array en JavaScript?
-   - A) `push()`
+   - A) `push()` <-------
    - B) `pop()`
    - C) `shift()`
    - D) `unshift()`
 
 13. ¿Cuál de los siguientes operadores se utiliza para comparar tanto el valor como el tipo de dos variables en JavaScript?
    - A) `==`
-   - B) `===`
+   - B) `===` <-------
    - C) `!=`
    - D) `!==`
 
@@ -83,17 +83,17 @@ El objetivo de este quiz es evaluar tus conocimientos previos sobre JavaScript a
    ```
    - A) `null`
    - B) `undefined`
-   - C) `object`
+   - C) `object` <-------
    - D) `number`
 
 15. ¿Cuál de los siguientes métodos se usa para recorrer todos los elementos de un array?
    - A) `forEach()`
    - B) `map()`
    - C) `filter()`
-   - D) `Todas las anteriores`
+   - D) `Todas las anteriores`  <-------
 
 16. ¿Qué se entiende por “hoisting” en JavaScript?
-   - A) Declaraciones de variables y funciones se mueven al principio de su ámbito.
+   - A) Declaraciones de variables y funciones se mueven al principio de su ámbito. <-------
    - B) Es un término para describir la eliminación de variables.
    - C) Es un método para agrupar varias funciones.
    - D) Ninguna de las anteriores.
