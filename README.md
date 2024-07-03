@@ -19,7 +19,7 @@ El objetivo de este quiz es evaluar tus conocimientos previos sobre JavaScript a
    - Describe qué es una función en JavaScript y cómo se declara.
 
    ### Respuesta:
-      Es un bloque de codigo que realiza una tarea especifica y que puede ser reutilizado. Es similar a una maquinita a la que se le puede ingresar algo, lo procesa y da un resultado.
+      Es un bloque de codigo que realiza una tarea especifica y que puede ser reutilizado. Es similar a una maquinita a la que se le puede ingresar algo, lo procesa y da un resultado Se declara usando la palabra clave 'function'  - function myFunction() {-la funcion-} -
 
 2. **Manipulación del DOM:**
    - Explica cómo seleccionar un elemento del DOM y cambiar su contenido.
@@ -42,20 +42,42 @@ El objetivo de este quiz es evaluar tus conocimientos previos sobre JavaScript a
 5. **Variables y Tipos de Datos:**
    - Explica las diferencias entre `var`, `let`, y `const` en JavaScript.
 
+   ### Respuesta:
+      var: Tiene un alcance global o de funcion, y puede ser redeclarada.
+      let: Tiene un alcance de bloque y no puede ser redeclarada dentro del mismo alcance, pero puede ser reasignada.
+      const: Tiene un alcance de bloque, Se usa para definir constantes, no puede ser redeclarada ni reasignada.
+
+
 6. **Control de Flujo:**
    - ¿Qué son las estructuras de control de flujo y cuáles son algunas de las más comunes en JavaScript?
 
+   ### Respuesta:
+      Las estructuras de control de flujo determinan el orden en que se ejecutan las instrucciones en un programa. Las mas comnes en JS son if, else, switch, for y while
+
+
 7. **Funciones de Flecha:**
    - Describe qué es una función de flecha en JavaScript y proporciona un ejemplo de cómo se usa.
+   ### Respuesta:
+      Las funciones flecha son una manera diferente de escribir funciones. En lugar de utilizar la palabra clave function y los parentesis para definir una funcion, las funiones flecha utilizan una flecha => para definirse
+
 
 8. **JSON:**
    - ¿Qué es JSON y cómo se utiliza en JavaScript?
+   ### Respuesta:
+      Es un formato de texto ligero para intercambiar y almacenar datos, se puede convertir en un objeto de JS paseandolo usando JSON.parse() y un JS a JSON usando JASON.stringify()
+
 
 9. **Promesas:**
    - Explica qué es una promesa en JavaScript y proporciona un ejemplo de su uso.
+   ### Respuesta:
+      Una promesa es un objetoi que eventualmente finalizara o fallara en una operacion asincronica, una promesa peude estar pendiente, resuelta o rechazada
+
 
 10. **Depuración:**
     - ¿Cuáles son algunas de las herramientas o métodos que se pueden usar para depurar código JavaScript?
+   ### Respuesta:
+      no entiendo la pregunta, a que se refiere con depurar?
+
 
 ## Preguntas de Selección Múltiple (20)
 
@@ -100,19 +122,19 @@ El objetivo de este quiz es evaluar tus conocimientos previos sobre JavaScript a
 
 17. ¿Cuál es la diferencia entre `null` y `undefined` en JavaScript?
    - A) `null` significa que una variable ha sido declarada pero no definida, `undefined` significa que no se ha declarado.
-   - B) `null` es un valor asignado intencionalmente, `undefined` significa que una variable no tiene valor.
+   - B) `null` es un valor asignado intencionalmente, `undefined` significa que una variable no tiene valor. <-------
    - C) `undefined` es un valor asignado intencionalmente, `null` significa que una variable no tiene valor.
    - D) No hay diferencia.
 
 18. ¿Cuál es el propósito del método `Array.prototype.map()`?
    - A) Modificar el array original.
-   - B) Crear un nuevo array con los resultados de aplicar una función a cada elemento del array original.
+   - B) Crear un nuevo array con los resultados de aplicar una función a cada elemento del array original. <-------
    - C) Filtrar los elementos de un array.
    - D) Encontrar un elemento en un array.
 
 19. ¿Qué es el `Event Loop` en JavaScript?
    - A) Un ciclo que controla las llamadas recursivas.
-   - B) Un proceso que permite a JavaScript realizar operaciones asincrónicas.
+   - B) Un proceso que permite a JavaScript realizar operaciones asincrónicas. <-------
    - C) Un método para iterar sobre arrays.
    - D) Ninguna de las anteriores.
 
@@ -120,50 +142,50 @@ El objetivo de este quiz es evaluar tus conocimientos previos sobre JavaScript a
     ```javascript
     console.log(0.1 + 0.2 === 0.3);
     ```
-    - A) `true`
+    - A) `true` <-------
     - B) `false`
     - C) `undefined`
     - D) `NaN`
 
 21. ¿Qué se entiende por `strict mode` en JavaScript?
     - A) Un modo que permite utilizar características experimentales.
-    - B) Un modo que cambia la forma en que se ejecuta JavaScript, haciéndolo más seguro.
+    - B) Un modo que cambia la forma en que se ejecuta JavaScript, haciéndolo más seguro. <-------
     - C) Un método para validar datos.
     - D) Ninguna de las anteriores.
 
 22. ¿Cuál de las siguientes es una forma correcta de crear un objeto en JavaScript?
-    - A) `let obj = {};`
+    - A) `let obj = {};` <-------
     - B) `let obj = Object.create();`
     - C) `let obj = new Object();`
     - D) A y C son correctas.
 
 23. ¿Qué es un `callback` en JavaScript?
-    - A) Una función que se pasa como argumento a otra función.
+    - A) Una función que se pasa como argumento a otra función. <-------
     - B) Un tipo de variable especial.
     - C) Un método para declarar funciones.
     - D) Ninguna de las anteriores.
 
 24. ¿Cuál es el propósito de `async` y `await` en JavaScript?
     - A) Ejecutar funciones síncronas.
-    - B) Manejar operaciones asincrónicas de manera más simple y legible.
+    - B) Manejar operaciones asincrónicas de manera más simple y legible. <-------
     - C) Declarar variables globales.
     - D) Ninguna de las anteriores.
 
 25. ¿Cuál de las siguientes es una estructura de datos inmutable en JavaScript?
     - A) Arrays
-    - B) Strings
+    - B) Strings <-------
     - C) Objetos
     - D) Ninguna de las anteriores.
 
 26. ¿Cómo se puede convertir un objeto JSON en una cadena de texto en JavaScript?
-    - A) `JSON.parse()`
+    - A) `JSON.parse()` <-------
     - B) `JSON.stringify()`
     - C) `toString()`
     - D) `parseInt()`
 
 27. ¿Qué es un `Promise` en JavaScript?
     - A) Una función que se ejecuta inmediatamente.
-    - B) Un objeto que representa la eventual finalización (o falla) de una operación asincrónica.
+    - B) Un objeto que representa la eventual finalización (o falla) de una operación asincrónica. <-------
     - C) Un método para declarar variables.
     - D) Ninguna de las anteriores.
 
@@ -171,16 +193,16 @@ El objetivo de este quiz es evaluar tus conocimientos previos sobre JavaScript a
     - A) `push()`
     - B) `pop()`
     - C) `shift()`
-    - D) `unshift()`
+    - D) `unshift()` <-------
 
 29. ¿Cuál es la diferencia entre `localStorage` y `sessionStorage` en JavaScript?
     - A) `localStorage` almacena datos solo durante la sesión del navegador, `sessionStorage` almacena datos de manera persistente.
-    - B) `sessionStorage` almacena datos solo durante la sesión del navegador, `localStorage` almacena datos de manera persistente.
+    - B) `sessionStorage` almacena datos solo durante la sesión del navegador, `localStorage` almacena datos de manera persistente. <-------
     - C) No hay diferencia entre ellos.
     - D) Ambos almacenan datos solo durante la sesión del navegador.
 
 30. ¿Qué método se utiliza para detener la propagación de un evento en el DOM?
     - A) `event.stopPropagation()`
     - B) `event.preventDefault()`
-    - C) `event.stop()`
+    - C) `event.stop()` <-------
     - D) `event.cancel()`
